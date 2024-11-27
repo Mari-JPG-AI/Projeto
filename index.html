@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Você é a Thabata?</title>
+    <title>Você é a Gi?</title>
     <style>
       body {
         margin: 0;
@@ -40,17 +40,17 @@
     <a href="#" id="link">Clique aqui</a>
     <div id="message">Então vá embora!</div>
     <div id="love-message">
-      <div>TE AMO THABATA</div>
+      <div>TE AMO GI</div>
       <div id="heart">❤️</div>
     </div>
 
     <script>
       document.getElementById("link").addEventListener("click", function (e) {
         e.preventDefault(); // Evita o comportamento padrão do link
-        const resposta = prompt("Você é a Thabata?"); // Prompt para a resposta
+        const resposta = prompt("Você é a Gi?"); // Prompt para a resposta
         if (resposta && resposta.trim().toLowerCase() === "sim") {
           // Confere se é "sim"
-          document.body.style.backgroundColor = "purple"; // Altera o fundo para roxo
+          document.body.style.backgroundColor = "pink"; // Altera o fundo para rosa
           document.getElementById("message").style.display = "none"; // Esconde a mensagem "Então vá embora!"
           document.getElementById("love-message").style.display = "block"; // Mostra a mensagem de amor
         } else {
